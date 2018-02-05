@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html ng-app="demo">
+<head>
+    <!-- <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <title>Angular Js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="angular.min.js"></script>
+     <script src="ang.js"></script> 
+</head>
+<body>
+    <div ng-controller="firstCtrl as first">
+    <input type="text" ng-model="first.match"  >
+    <button  ng-click="first.search()">search</button>
+
+    <img src="images/{{first.pic}}" height="50px" width="50px">
+    
+   
+    </div>
+    <!-- <input type="text" ng-model="name"  >
+    <img src="images/{{name}}.jpg" height="50px" width="50px"> -->
+</body>
+</html>
